@@ -22,13 +22,9 @@ export default function Home() {
             CALL <span className='orange'>ARENA</span>
           </div>
 
-          <a
-            href='https://pixgg.com/Nzaotv'
-            target='_blank'
-            className='btn'
-          >
-            PAINEL ADMIN
-          </a>
+          <div style={{color:'#ffcc00', fontWeight:'700'}}>
+  🎰 comunidade premium
+</div>
         </div>
       </header>
 
