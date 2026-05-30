@@ -82,20 +82,7 @@ export default function Home() {
 
         <aside style={{display:'flex', flexDirection:'column', gap:'22px'}}>
 
-          <div className='card'>
-            <h2 className='side-title'>
-              🔥 ultimos pagamentos
-            </h2>
-
-            <div className='list'>
-              {latest.map((item, index) => (
-                <div key={index} className='item'>
-                  <span>{item.name}</span>
-                  <span className='value'>{item.value}</span>
-                </div>
-              ))}
-            </div>
-          </div>
+          
 
           <div className='card'>
             <h2 className='side-title'>
